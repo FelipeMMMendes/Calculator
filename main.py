@@ -1,4 +1,3 @@
-from __future__ import division
 from art import logo
 
 def sum(a,b):
@@ -65,7 +64,8 @@ def calculator():
             print(f"{num1} {operation} {num2} = ",answer)
         else:
             ContinueOperations = False    
-    
+
+calculator()    
 
     
 
